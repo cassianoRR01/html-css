@@ -25,3 +25,17 @@ section.flex {
     padding: 20px;
     background-color: lightgray;
 }
+
+article.media-text {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    flex: 0 1 auto;
+}
+
+article.text-media {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+
