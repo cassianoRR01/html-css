@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template: repeat(3, 100px) / repeat(4, 1fr);
+    gap: 5px;
+}
+
+.caixa1 {
+    background-color: lightblue;
+    grid-area: 1 / 1 / 2 / -1;
+}
+
+.caixa2 {
+    background-color: lightgreen;
+    grid-area: 2 / 1 / 4 / 3;
+}
+
+.caixa3 {
+    background-color: lightsalmon;
+    grid-area: 2 / 3 / 4 / 5;
+}
